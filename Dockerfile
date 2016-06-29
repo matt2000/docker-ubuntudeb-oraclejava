@@ -1,5 +1,5 @@
 #!/usr/bin/docker
-FROM ubuntu:latest
+FROM ubuntu:14.04
 MAINTAINER Matt Chapman <Matt@NinjitsuWeb.com>
 
 RUN echo /usr/bin/debconf shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
